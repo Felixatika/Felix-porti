@@ -1,0 +1,60 @@
+img {
+  object-fit: cover; /* conserves image's pixel ratio */
+  position: absolute; /* positions image at same place regardless of the window size */
+  border-radius: 50%; /* puts image in circular border */
+}
+
+.responsive {
+  /* makes image responsive */
+  max-width: 20%; /* limits size of image to 20% of the maximum window size */
+  height: auto;
+  width: 20%;
+}
+body {
+  background-color: black;
+}
+.header {
+  /* displays images and text side by side */
+  width: 100%;
+  height: 260px;
+}
+
+h1 {
+  color: #fe5a07;
+  font-family: "Source Serif Pro", serif;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.topleft {
+  float: left; /* positions the image to the left of header element */
+  padding-left: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topright {
+  float: right;
+  padding-left: 42%;
+  position: absolute;
+}
+
+.content {
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 20%;
+  word-spacing: 2px;
+  padding-right: 20%;
+  padding-bottom: 8%;
+  color: white;
+}
+
+a {
+  color: #fe5a07; /* changes link color to orange */
+  text-decoration: none; /* removes underline from the link */
+}
+
+a:visited {
+  /* changes color of link to black if the linked site has been visited before */
+  color: #fe5a07;
+}
